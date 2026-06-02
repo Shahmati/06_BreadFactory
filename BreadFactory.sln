@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadFactory", "BreadFactory.csproj", "{D196443A-3ABB-429E-BDFE-E2D868A5B4D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D196443A-3ABB-429E-BDFE-E2D868A5B4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D196443A-3ABB-429E-BDFE-E2D868A5B4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D196443A-3ABB-429E-BDFE-E2D868A5B4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D196443A-3ABB-429E-BDFE-E2D868A5B4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27A199C2-A1A5-4E4C-B5B7-7C25AD39B5C4}
+	EndGlobalSection
+EndGlobal

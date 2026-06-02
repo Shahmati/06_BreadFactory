@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0e5d5414e914450e9196a68d7bb02390" Name="Diagram1">
+        <EntityTypeShape EntityType="DataBase.ClientAddresses" Width="1.5" PointX="3" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.Clients" Width="1.5" PointX="5.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.Manufacturers" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.Materials" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.MeasureUnits" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.OrderExecutors" Width="1.5" PointX="5.25" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.OrderItems" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.Orders" Width="1.5" PointX="7.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.ProductionMaterials" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.ProductionProducts" Width="1.5" PointX="7.5" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.Products" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.ProductSpecifications" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.Roles" Width="1.5" PointX="9.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.sysdiagrams" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBase.Users" Width="1.5" PointX="12" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DataBase.FK__Clients__ClientA__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__Orders__ClientKe__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__ProductSp__Manuf__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__Materials__Measu__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__Productio__Mater__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__Products__Measur__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__Orders__OrderExe__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__OrderItem__Produ__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__Orders__OrderIte__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__Productio__Produ__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__Productio__Produ__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__ProductSp__Produ__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBase.FK__Users__UserRoleK__52593CB8" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
